@@ -15,10 +15,20 @@ li {
 a {
     text-decoration: none;
     color: white;
+
 }
 
-a:hover {
-    color: rgba(152, 255, 255, 0.796);
+.btn {
+    display: inline-block;
+    background-color: rgb(25, 40, 52);
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: rgba(25, 40, 52, 0.37);
 }
 
 img {
